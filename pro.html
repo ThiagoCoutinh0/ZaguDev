@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full-Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .navbar {
+      background-color: #343a40;
+      padding: 10px 0;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .jumbotron {
+      text-align: center;
+      background-image: url("path/to/background-image.jpg");
+      background-size: cover;
+      color: #fff;
+      padding: 150px 0;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .fade-in.active {
+      opacity: 1;
+    }
+
+    .portfolio-section {
+      padding: 100px 0;
+    }
+
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      height: auto;
+    }
+
+    .contact-section {
+      background-color: #343a40;
+      color: #fff;
+      padding: 100px 0;
+    }
+
+    .contact-section h2 {
+      color: #fff;
+    }
+
+    .contact-form .form-group label {
+      font-weight: bold;
+    }
+
+    .contact-form .form-group input,
+    .contact-form .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form .form-group textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .contact-form .form-group button {
+      padding: 10px 20px;
+      background-color: #343a40;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .contact-form .form-group button:hover {
+      background-color: #23272b;
+    }
+
+    .footer-section {
+      background-color: #23272b;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Full-Stack Developer Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to My Portfolio</h1>
+    <p class="lead">I'm a Full-Stack Developer.</p>
+  </div>
+
+  <div id="about" class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae orci lacinia, congue risus ut,
+          luctus magna. In consectetur auctor erat, eu tincidunt libero vulputate sit amet. Curabitur venenatis
+          tristique ligula. Mauris aliquet feugiat magna id feugiat. Phasellus fermentum id orci vitae bibendum.
+          Nullam commodo sem at dolor hendrerit, sed eleifend erat venenatis.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="ima/im.jpg" alt="Profile Image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2>My Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4">
+        <img src="ima/im.jpg" alt="Profile Image" class="img-fluid">
+        <div class="row" alt="Project 1">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="portfolio-item">
+        <img src="ima/im.jpg" alt="Profile Image" class="img-fluid">
+        <img src="" alt="Project 2">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="portfolio-item">
+            <img src="ima/im.jpg" alt="Project 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer-section">
+    <div class="container">
+      <p>&copy; 2023 Full-Stack Developer Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Custom JavaScript code
+    window.addEventListener('scroll', fadeInOnScroll);
+
+    function fadeInOnScroll() {
+      const elements = document.querySelectorAll('.fade-in');
+      elements.forEach(element => {
+        const position = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (position < windowHeight) {
+          element.classList.add('active');
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
