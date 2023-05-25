@@ -1,18 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0c1a29;
+    background-color: #334da3;
+    color: aliceblue;
   }
 
   .navbar {
     background-color: #cf2c03;
-    padding: 20px 0;
+    padding: 11px 0;
     background: rgba(25,25,112, 0.5);
   }
 
 
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: #142026;
+    color: #227685;
     font-weight: bold;
     font-size: 20px;
   }
@@ -22,7 +23,12 @@ body {
     background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXU3geqbN0klC5XmKmqfYTR2eDUAG2AFvdE-T2jmCWQvtj_g2kAR_3w5MqCUhsfDtiUiEPmkFbGzS-SkxX3FnxJ2JKe2y5zsj_fHBex9yUqGItnggnb-VDO3-kh5gJAhvt0o-f74kcDt66YPklJy2Ud4aNGdgh6Ft7BsVcB2KbyPFDFJrkOWdsAJjxGg/s1920-rw/v10-060622-pc-wallpaper-hd.png);
     background-size: cover;
     color: #142026;
-    padding: 300px 0;
+    padding: 80px 0;
+  }
+
+  #about{
+    color: #142026;
+    background-color: #cf2c03;
   }
 
   .fade-in {
