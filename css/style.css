@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  .navbar {
+    background-color: #cf2c03;
+    padding: 25px 0;
+    background: rgba(25,25,112, 0.8);
+  }
+
+
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #850a0a;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .jumbotron {
+    text-align: center;
+    background-image: url("path/to/background-image.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 150px 0;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .fade-in.active {
+    opacity: 1;
+  }
+
+  .portfolio-section {
+    padding: 100px 0;
+  }
+
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-section {
+    background-color: #343a40;
+    color: #fff;
+    padding: 100px 0;
+  }
+
+  .contact-section h2 {
+    color: #fff;
+  }
+
+  .contact-form .form-group label {
+    font-weight: bold;
+  }
+
+  .contact-form .form-group input,
+  .contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-form .form-group textarea {
+    resize: vertical;
+    height: 120px;
+  }
+
+  .contact-form .form-group button {
+    padding: 10px 20px;
+    background-color: #343a40;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .contact-form .form-group button:hover {
+    background-color: #23272b;
+  }
+
+  .footer-section {
+    background-color: #23272b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
