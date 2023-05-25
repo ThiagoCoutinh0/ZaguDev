@@ -1,32 +1,32 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #0c1a29;
   }
 
   .navbar {
     background-color: #cf2c03;
-    padding: 25px 0;
-    background: rgba(25,25,112, 0.8);
+    padding: 20px 0;
+    background: rgba(25,25,112, 0.5);
   }
 
 
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: #850a0a;
+    color: #142026;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .jumbotron {
     text-align: center;
-    background-image: url("path/to/background-image.jpg");
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXU3geqbN0klC5XmKmqfYTR2eDUAG2AFvdE-T2jmCWQvtj_g2kAR_3w5MqCUhsfDtiUiEPmkFbGzS-SkxX3FnxJ2JKe2y5zsj_fHBex9yUqGItnggnb-VDO3-kh5gJAhvt0o-f74kcDt66YPklJy2Ud4aNGdgh6Ft7BsVcB2KbyPFDFJrkOWdsAJjxGg/s1920-rw/v10-060622-pc-wallpaper-hd.png);
     background-size: cover;
-    color: #fff;
-    padding: 150px 0;
+    color: #142026;
+    padding: 300px 0;
   }
 
   .fade-in {
-    opacity: 0;
+    opacity: 10;
     transition: opacity 1s ease-in-out;
   }
 
