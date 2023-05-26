@@ -15,7 +15,7 @@ body {
 
 
   .navbar-brand,
-  .navbar-nav .nav-link {
+  .navbar-nav .nav-link .init-hidden{
     color: #01081d;
     font-weight: bold;
     font-size: 20px;
@@ -251,8 +251,16 @@ body {
     color: white;
     text-decoration: none;
   }
-  
 
-  /*footer*/
+  /*scroll*/
+
+  .init-hidden{
+    opacity: 0;
+    transition: opacity 1s linear;
+  }
+
+  .init-hidden-off{
+    opacity: 1;
+  }
   
   
