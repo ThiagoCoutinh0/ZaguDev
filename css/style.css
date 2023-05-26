@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #334da3;
+    background-color: #01081d;
     color: aliceblue;
   }
 
@@ -13,7 +13,7 @@ body {
 
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: #227685;
+    color: #01081d;
     font-weight: bold;
     font-size: 20px;
   }
@@ -103,7 +103,7 @@ body {
     padding: 20px 0;
     text-align: center;
   }
-
+   /*g*/
 
   .animated-button {
     padding: 10px 20px;
@@ -153,5 +153,98 @@ body {
     height: 200px;
     opacity: 1;
   }
+
+  /* skils*/
+
+  .owl-carousel {
+  width: 100%;
+}
+
+.owl-carousel .item {
+  text-align: center;
+}
+
+.owl-carousel .item img {
+  display: inline-block;
+  max-width: 40%;
+  height: auto;
+  margin-left: 29%;
+
+}
+
+.custom-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-controls button {
+  padding: 10px 20px;
+  background-color: #00000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+
+/* centralizar*/
+  #cen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px; /* Ajuste a altura conforme necessário */
+  }
+
+
+
+  .portfolio-item {
+    position: relative;
+    display: inline-block;
+  }
   
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease;
+  }
+  
+  .portfolio-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .overlay-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .overlay-content .btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+  }
   
