@@ -27,6 +27,7 @@ body {
     background-size: cover;
     color: #142026;
     padding: 80px 0;
+    content: "";
   }
 
   #about{
@@ -61,7 +62,7 @@ body {
   }
 
   .contact-section {
-    background-color: #343a40;
+    background-color: #000000;
     color: #fff;
     padding: 100px 0;
   }
@@ -89,7 +90,7 @@ body {
 
   .contact-form .form-group button {
     padding: 10px 20px;
-    background-color: #343a40;
+    background-color: #000000;
     border: none;
     color: #fff;
     font-weight: bold;
@@ -101,7 +102,7 @@ body {
   }
 
   .footer-section {
-    background-color: #23272b;
+    background-color: #02020c;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -250,4 +251,8 @@ body {
     color: white;
     text-decoration: none;
   }
+  
+
+  /*footer*/
+  
   
