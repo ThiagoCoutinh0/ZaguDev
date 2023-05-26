@@ -3,6 +3,9 @@ body {
     background-color: #01081d;
     color: aliceblue;
   }
+  p, h1, h2, h3, li{
+    color: white;
+  }
 
   .navbar {
     background-color: #cf2c03;
@@ -28,7 +31,7 @@ body {
 
   #about{
     color: #142026;
-    background-color: #cf2c03;
+    background: rgb(1,8,29);
   }
 
   #lil{
